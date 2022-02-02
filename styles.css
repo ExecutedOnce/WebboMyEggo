@@ -1,0 +1,29 @@
+div {
+	background: #FFFFFF;
+	background: -moz-linear-gradient(-45deg, #FFFFFF 0%, #565656 57%, #040404 100%);
+	background: -webkit-linear-gradient(-45deg, #FFFFFF 0%, #565656 57%, #040404 100%);
+	background: linear-gradient(135deg, #FFFFFF 0%, #565656 57%, #040404 100%);
+}
+img {
+  height: auto;
+  width: 500px;
+}
+#paragraph1 {
+	font-family: Georgia, serif;
+	font-size: 16px;
+	letter-spacing: -0.4px;
+	word-spacing: -0.4px;
+	color: #41B236;
+	font-weight: 700;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+}
+
+div.one {
+padding-top:32px;
+padding-right:32px;
+padding-bottom:32px;
+padding-left:32px;
+}
