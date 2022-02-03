@@ -11,7 +11,6 @@
 <body>
 
   <h1>Homepage</h1>
-  <div class="container">
   <div class="sidebar">
    <ul>
 	<li><a href=".\pages\about.html"><button class="BTNS">ABOUT</button></a></li>
@@ -20,8 +19,8 @@
    </ul>
   </div>
   <div class="body">
-		<p id="paragraph1">s5555</p>
-  </div>
+		<p id="paragraph1">s5555
+		</p>
   </div>
   <footer>Footer</footer>
 	

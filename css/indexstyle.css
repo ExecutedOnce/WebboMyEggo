@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-weight: bold;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(135deg, #9D9D9D 0%, #B9C6CB 41%, #090909 100%);
+}
+
+h1{
+background: linear-gradient(135deg, #9D9D9D 0%, #2388CB 41%, #090909 100%);
+text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18
+font-family: "Arial Black", Gadget, sans-serif;
+font-size: 21px;
+height:72px;
+margin:0;
+letter-spacing: 0.4px;
+word-spacing: 0.6px;
+color: #43FFEB;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: uppercase;
+}
+
+
+li{
+text-decoration: none;
+list-style-type: none;
+}
+a{
+color:red;
+text-decoration: none;
+}
+
+.BTNS{
+color: rgb(255, 255, 255); font-size: 15px; line-height: 15px; padding: 10px; border-radius: 13px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px solid rgb(28, 110, 164); display: inline-block;
+}
+.BTNS:hover {
+background: #1C6EA4; }
+.BTNS:active {
+background: #144E75; }
+
+.body{
+ display: flex;
+ flex:1;
+}
+.sidebar{
+  width: 300px;
+  background: royalblue;
+  flex-shrink: 0;
+  
+  
+	}
+
+footer{
+    display:flex;
+	justify-content: space-between;
+	background-color: #eee;
+	padding: 16px;
+	margin:o;
+}
+
+.container{
+	display: flex;
+	
+}
