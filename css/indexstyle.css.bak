@@ -8,13 +8,14 @@ body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(135deg, #2388CB 0%, #090909 100%);
+  background: linear-gradient(
+135deg
+, #9D9D9D 17%, #2388CB 41%, #090909 100%);
 }
 
 h1{
-background: linear-gradient(
-135deg
-, #9D9D9D 17%, #2388CB 41%, #090909 100%);
+background-color: rgba(0, 0, 255, 0.1);
+
 font-size: 32px;
 height:72px;
 margin:0;
@@ -57,7 +58,7 @@ background: #144E75; }
 }
 .sidebar{
   width: 200px;
-  background: linear-gradient(135deg, #9D9D9D 0%, #2388CB 41%, #090909 100%);
+  background-color: rgba(150, 190, 225, 0.1);
   flex-shrink: 0;
    
 	}
